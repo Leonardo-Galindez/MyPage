@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
@@ -12,8 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: large;
-    flex-direction: column;
+    font-size: large;   
     height: 100vh;
 }
 
@@ -34,6 +32,7 @@ form h1{
 }
 
 label{
+    text-decoration: none;
     margin-bottom: 5px;
 }
 
@@ -55,4 +54,13 @@ button {
 
 button:hover {
     background-color: #5c5c5c;
+}
+
+.options{
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: small;
 }

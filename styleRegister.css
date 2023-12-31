@@ -1,12 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #5c5c5c;
     display: flex;
     justify-content: center;
@@ -17,29 +16,29 @@ body{
     height: 100vh;
 }
 
-.register-container{
+.register-container {
     background-color: rgb(53, 52, 52);
     border-radius: 8px;
     padding: 20px;
     width: 300px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
 }
 
-form h1{
+form h1 {
     text-align: center;
     color: white;
 }
 
-label{
+label {
     margin-bottom: 5px;
     color: white;
 }
 
-input{
+input {
     padding: 8px;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -57,4 +56,13 @@ button {
 
 button:hover {
     background-color: #5c5c5c;
+}
+
+.options {
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: small;
 }
