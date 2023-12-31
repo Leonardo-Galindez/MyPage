@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5c5c5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: large;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.register-container{
+    background-color: rgb(53, 52, 52);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form h1{
+    text-align: center;
+    color: white;
+}
+
+label{
+    margin-bottom: 5px;
+    color: white;
+}
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c5c5c;
+}

@@ -4,20 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleLogin.css">
+    <link rel="stylesheet" href="styleRegister.css">
     <link rel="icon" href="images/logo2.png">
     <title>Computex</title>
 </head>
 
 <body>
-    <div class="login-container">
+    <div class="register-container">
         <form action="home.html" method="">
-            <h1>Inicio Sesión</h1>
+            <h1>Registrarse</h1>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+            <label for="lastName">Apellido</label>
+            <input type="text" id="lastName" name="lastName" required>
             <label for="correo">Correo Electronico</label>
             <input type="email" id="correo" name="correo" required>
             <label for="password">Contraseña</label>
             <input type="password" id="password" name="password" required>
-            <button type="submit">Iniciar Sesión</button>
+            <label for="verificacion">Ingrese otra vez contraseña</label>
+            <input type="password" id="verificacion" name="verificacion" required>
+            <button type="submit">Registrarse</button>
         </form>
     </div>
 </body>
