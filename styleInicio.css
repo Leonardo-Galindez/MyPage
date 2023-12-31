@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: large;
+    flex-direction: column;
+}
+
+
+#clickLogo {
+    display: none;
+}
+
+.logoImg {
+    width: 200px;
+    height: 130px;
+}
+
+.logo {
+    color: white;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0);
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.item a {
+    padding: 20px;
+    display: block;
+    color: white;
+}
+
+.item {
+    display: inline-block;
+    text-align: center;
+}
+
+.item a:hover {
+    background-color: rgb(86, 84, 150);
+}
